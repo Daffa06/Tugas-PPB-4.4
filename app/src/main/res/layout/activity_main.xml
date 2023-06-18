@@ -11,14 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbarMain"
-        android:background="@color/navy"
+        android:background="@color/design_default_color_primary"
         />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayoutMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/navy"
+        android:background="@color/design_default_color_surface"
         android:contentDescription="@string/tablayout"
         app:tabIndicatorAnimationMode="elastic"
         app:tabIndicatorColor="@color/blue"
